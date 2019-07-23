@@ -1,0 +1,21 @@
+USE [KaizanDB]
+GO
+/****** Object:  StoredProcedure [dbo].[CreateNewTeam]    Script Date: 7/21/2019 5:50:00 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE Procedure [dbo].[CreateUser]
+@name varchar(50),
+@email nvarchar(128),
+@userName [nvarchar](256),
+AS
+BEGIN
+	INSERT INTO [dbo].[CreateUser]
+           ([Name]
+           ,[Email]
+           ,[UserName]
+	 VALUES (@name, @email, @userName)
+END
+GO
