@@ -11,7 +11,7 @@ As
 BEGIN
 	select b.Id, b.Name, b.[Description], 
 	b.CreatedDate, 
-	b.CreatedBy,
+	b.CreatedBy
 		from SomeTable b
 	where @userId = b.UserId
 	
