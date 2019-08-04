@@ -1,0 +1,7 @@
+organization=ajaychoudhary01
+projectKey=ajaychoudhary01_SonarQubeDemo_SQL
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.65
+dashboardUrl=https://sonarcloud.io/dashboard?id=ajaychoudhary01_SonarQubeDemo_SQL
+ceTaskId=AWwkOAG1XObc3F4o3oA0
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWwkOAG1XObc3F4o3oA0
