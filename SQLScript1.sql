@@ -4,7 +4,8 @@ BEGIN
     SELECT 
         product_name, 
         list_price,
-        somevalue
+        somevalue,
+        test
     FROM 
         production.products
     ORDER BY 
