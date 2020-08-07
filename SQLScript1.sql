@@ -3,7 +3,8 @@ AS
 BEGIN
     SELECT 
         product_name, 
-        list_price
+        list_price,
+        somevalue
     FROM 
         production.products
     ORDER BY 
